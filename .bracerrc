@@ -1,7 +1,8 @@
 #Configuration file for BraCeR#
 
 [tool_locations]
-igblastn_path = /ncbi-igblast-1.10.0/bin/igblastn
+#paths to tools used by BraCeR for alignment, quantitation, etc
+igblastn_path = /ncbi-igblast-1.14.0/bin/igblastn
 blastn_path = /ncbi-blast-2.6.0+/bin/blastn
 kallisto_path = /kallisto_linux-v0.43.1/kallisto
 trinity_path = /trinityrnaseq-Trinity-v2.4.0/Trinity
